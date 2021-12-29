@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Start header section style  */
+.homeContainer{
+    background-image: url(./images/bgOne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navBar ul{
+    display: flex;
+}
+.navBar ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+/* Finshed header style section */
+
+/* Start footer section style  */
+.footerContainer{
+    background: #000000;
+    color: white;
+    height: 200px;
+}
+/* Finshed footer section style */
