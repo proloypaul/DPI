@@ -5,17 +5,21 @@
 
 /* Start header section style  */
 .homeContainer{
-    background-image: url(./images/bgOne.jpg);
+    background-image: url(https://i.ibb.co/5RX0xY6/bgOne.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     color: white;
-    padding: 20px;
     font-size: 20px;
+    padding: 20px 40px;
 }
 nav{
     display: flex;
     justify-content: space-between;
+
+}
+.navLogo h1{
+    font-size: 30px;
 }
 .navBar ul{
     display: flex;
@@ -26,11 +30,92 @@ nav{
 }
 .navBar ul li a{
     text-decoration: none;
-    color: white;
+    color: crimson;
     
+}
+.navBar ul li:hover a{
+    color: white;
+}
+
+.home-content{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 140px;
+}
+
+.home-content img{
+    width: 200px;
+    height: 200px;
+    border: 0;
+    border-radius: 50%;
+}
+.content-partOne{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 50px;
+}
+
+.home-content .content-partTwo .headTeacherImg{
+    display: flex;
+    justify-content: center;
+}
+.home-content .content-partTwo .headMessage{
+    background: whitesmoke;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    border: 0;
+    border-radius: 5px;
+}
+.content-partTwo:hover img{
+    transform: scale(0.9);
+}
+.content-partTwo:hover .headMessage{
+    background: orangered;
+    color: white;
+}
+span{
+    color: orangered;
+}
+.home-content :hover span{
+    color: crimson;
 }
 /* Finshed header style section */
 
+/* start institute style  */
+.instituteContainer{
+    background: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.897));
+    padding: 20px 0px;
+}
+.institute-content{
+    display: grid;
+    margin: 20px 40px;
+    grid-template-columns: repeat(2, 2fr);
+}
+.instituteImg{
+    display: flex;
+    justify-content: end;
+}
+.instituteImg img{
+    width: 400px;
+    border:0;
+    border-radius: 5px;
+}
+.institute-partOne{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.institute-partOne h3{
+    color: orangered;
+}
+.institute-partOne p{
+    color: rgba(255, 255, 255, 0.829);
+}
+/* Fineshed institute style  */
 /* Start footer section style  */
 .footerContainer{
     background: #000000;
